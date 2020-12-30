@@ -4,3 +4,14 @@ picture {
     height: auto;
 }
 
+.main__input {
+    width: 50rem;
+}
+
+.main__buttons--container {
+    width: 50rem;
+}
+
+footer {
+    height: 10.5rem;
+}
