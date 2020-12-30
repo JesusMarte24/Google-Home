@@ -79,6 +79,7 @@ header nav ul li {
     align-items: center;
     flex-direction: column;
     margin: 10rem auto;
+    margin-bottom: 12rem;
 }
 
 .main__container--img {
@@ -164,4 +165,46 @@ main picture img {
     cursor: pointer;
 }
 
+footer {
+    background-color: #f2f2f2;
+    position: relative;
+    bottom: 0;
+    height: 9.5rem;
+}
+
+.footer__top--container {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1.5rem 1.5rem 1.3rem 3rem;
+    color: #70757a;
+    border-top: 1.5px solid #dadce0;
+    border-bottom: 1.5px solid #dadce0;
+}
+
+.footer__bottom--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom--left {
+    text-align: left;
+    padding: 1.5rem 1.5rem 1rem 3rem;
+}
+
+.footer__bottom--left a {
+    color: #70757a;
+    font-size: 1.4rem;
+    margin-right: 1.5rem;
+}
+
+.footer__bottom--right  {
+    text-align: right;
+    padding: 1.5rem 1.5rem 1rem 3rem;
+}
+
+.footer__bottom--right a {
+    color: #70757a;
+    font-size: 1.4rem;
+    margin-right: 1.5rem;
+}
 
