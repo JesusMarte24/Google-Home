@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://img.icons8.com/fluent/48/000000/google-logo.png">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 1366px)">
     <title>Google</title>
 </head>
 <body>
@@ -21,7 +23,8 @@
 
     <main class="main__container">
         <picture class="main__container--img">
-            <img src="./assets/google--logo.png" alt="This is the google logo">
+            <source media="(min-width:1366px)" srcset="./assets/google--logo.png">
+            <img src="./assets/google__logo--tablet.png" alt="This is the google logo">
         </picture>
         <div class="main__input--container">
             <input class="main__input" type="text">
