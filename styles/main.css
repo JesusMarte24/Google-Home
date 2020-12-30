@@ -75,11 +75,14 @@ header nav ul li {
 
 .main__container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    margin: 10rem auto;
-    margin-bottom: 12rem;
+    margin: 0rem auto;
+    min-height: 100vh;
+    box-shadow: 0 0 2px blue inset;
+    padding-top: 9rem;
+    /* margin-bottom: 3rem; */
 }
 
 .main__container--img {
@@ -165,11 +168,20 @@ main picture img {
     cursor: pointer;
 }
 
+.main__leng--container {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.main__leng--container a{
+    color: #1a0dab;
+}
+
 footer {
     background-color: #f2f2f2;
-    position: relative;
-    bottom: 0;
     height: 9.5rem;
+    width: 100%;
+    margin-top: -10rem;
 }
 
 .footer__top--container {
